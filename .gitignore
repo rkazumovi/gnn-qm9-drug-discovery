@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Dataset (re-downloadable via dataset.py)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Resume checkpoint (large, only useful for resuming training locally)
+checkpoints/latest_checkpoint.pt
+
+# OS/editor junk
+.vscode/
+.DS_Store
